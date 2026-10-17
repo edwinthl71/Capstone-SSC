@@ -1,5 +1,13 @@
 ![Late Delivery Risk Prediction Logo](Late%20Risk%20Predictive.png)
 
+<p align="center">
+  <img src="Late%20Risk%20Predictive.png" width="300" alt="Late Delivery Risk Prediction Logo">
+</p>
+
+git add README.md
+git commit -m "Add logo to README"
+git push origin main
+
 
 # Late Delivery Risk Prediction
 ### A Data-Driven Supply Chain Analysis
