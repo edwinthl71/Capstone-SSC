@@ -1,4 +1,4 @@
-![Late Delivery Risk Prediction Logo](Capstone-SSC/Late Risk Predictive.png)
+![Late Delivery Risk Prediction Logo](edwinthl71/Capstone-SSC/Late Risk Predictive.png)
 
 # Late Delivery Risk Prediction
 ### A Data-Driven Supply Chain Analysis
