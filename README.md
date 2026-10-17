@@ -39,21 +39,26 @@ The analysis integrates data across **orders, products, shipping modes, payment 
 
 ---
 
-## Research Objectives
-1. **Shipping Mode Impact Analysis**  
-   Evaluate how different shipping modes influence the likelihood of late delivery.
+🎯 Research Objectives
+1. Shipping Mode Impact Analysis  
+Objective: Evaluate how different shipping modes (e.g., standard, expedited, same-day) influence the likelihood of late delivery.
+Value: Identifies which service levels are most prone to delays and guides logistics optimization.
 
-2. **Geographic Risk Profiling**  
-   Assess how delivery risk varies across regions, countries, and cities.
+2. Geographic Risk Profiling  
+Objective: Assess how delivery risk varies across regions, countries, and cities by linking Geography data with Orders.
+Value: Highlights high-risk geographies where infrastructure or carrier performance may need improvement.
 
-3. **Product Category Sensitivity**  
-   Investigate whether certain product categories are more prone to late delivery.
+3. Product Category Sensitivity  
+Objective: Investigate whether certain product categories (e.g., bulky items, electronics, apparel) are more likely to face late delivery.
+Value: Helps tailor packaging, inventory, and shipping strategies for specific product types.
 
-4. **Customer Segment Behavior**  
-   Analyze whether late delivery risk differs across customer segments.
+4. Customer Segment Behavior  
+Objective: Analyze whether late delivery risk differs across customer segments (e.g., retail vs. wholesale, high-value vs. low-value customers).
+Value: Supports differentiated service strategies and prioritization of key customer groups.
 
-5. **Predictive Modeling**  
-   Build a machine learning model to predict late delivery risk using order attributes.
+5. Predictive Modeling of Late Delivery Risk  
+Objective: Build a machine learning model using order attributes (shipping days scheduled vs. actual, payment type, geography, product category) to predict late delivery risk.
+Value: Enables proactive interventions such as rerouting shipments or offering alternative delivery options.
 
 ---
 
