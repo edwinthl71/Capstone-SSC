@@ -1,4 +1,4 @@
-![Late Delivery Risk Prediction Logo](https://github.com/edwinthl71/Capstone-SSC/commit/c393f4ffe2eda2b4a740f7dcd65f998d30411f87)/logo.png)
+![Late Delivery Risk Prediction Logo](Capstone-SSC/Late Risk Predictive.png)
 
 # Late Delivery Risk Prediction
 ### A Data-Driven Supply Chain Analysis
