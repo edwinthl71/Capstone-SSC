@@ -35,7 +35,7 @@ The analysis integrates data across **orders, products, shipping modes, payment 
 ---
 
 ## Problem Statement
-**How can we predict whether an order is at risk of late delivery based on shipping mode, geography, product category, and customer attributes?**
+**How can we analyse and predict whether an order is at risk of late delivery based on shipping mode, geography, product category, and customer attributes?**
 
 ---
 
