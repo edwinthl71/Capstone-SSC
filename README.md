@@ -40,6 +40,7 @@ The analysis integrates data across **orders, products, shipping modes, payment 
 ---
 
 🎯 **Research Objectives**
+
 **1. Shipping Mode Impact Analysis**
 Objective: Evaluate how different shipping modes (e.g., standard, expedited, same-day) influence the likelihood of late delivery.
 Value: Identifies which service levels are most prone to delays and guides logistics optimization.
