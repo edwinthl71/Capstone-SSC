@@ -1,0 +1,5 @@
+Type,Payment_Type_ID
+DEBIT,1
+TRANSFER,2
+CASH,3
+PAYMENT,4
