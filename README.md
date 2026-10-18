@@ -65,11 +65,11 @@ Objective: Analyze whether late delivery risk differs across customer segments (
 
 Value: Supports differentiated service strategies and prioritization of key customer groups.
 
-**5. Predictive Modeling of Late Delivery Risk**  
+**5. Temporal Trends in Delivery Delays**  
 
-Objective: Build a machine learning model using order attributes (shipping days scheduled vs. actual, payment type, geography, product category) to predict late delivery risk.
+Objective: Examine how late delivery risk changes over time (monthly or quarterly), identifying seasonal patterns or long-term trends.
 
-Value: Enables proactive interventions such as rerouting shipments or offering alternative delivery options.
+Value: Provides insights into whether delays are cyclical, improving, or worsening, helping organizations plan resources and set realistic customer expectations.
 
 ---
 
