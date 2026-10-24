@@ -217,7 +217,7 @@ The notebook exports a star schema to `powerbi/`:
 
 ## Streamlit App: Model Inference
 
-**Live app:** https://YOUR-APP-NAME.streamlit.app
+**Live app:** [https://YOUR-APP-NAME.streamlit.app](https://late-delivery-risk-prediction-dataco.streamlit.app/)
 
 The app puts the predictive model to work. A user enters an order the way it looks at checkout and gets its late-delivery risk.
 
