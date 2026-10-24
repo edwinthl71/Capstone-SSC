@@ -1,22 +1,25 @@
+from pathlib import Path
+
 import altair as alt
 import pandas as pd
 import streamlit as st
 
 from risk_model import BAND_COLOURS, DEFAULTS, DEPTS, MODEL, MODES, PROMISE_DAYS, action, band, predict
 
-st.set_page_config(page_title="Late Delivery Risk", page_icon="logo.png", layout="wide")
+HERE = Path(__file__).parent  # files are found next to app.py, wherever the repository puts it
+st.set_page_config(page_title="Late Delivery Risk", page_icon=str(HERE / "logo.png"), layout="wide")
 
 c1, c2 = st.columns([5, 1])
 with c1:
     st.title("Late Delivery Risk")
     st.caption("DataCo supply chain capstone · Gradient Boosting on order-time fields · 65,752 orders, Jan 2015 – Jan 2018")
 with c2:
-    st.image("logo.png", width=120)
+    st.image(str(HERE / "logo.png"), width=120)
 
 
 @st.cache_data
 def load_scores() -> pd.DataFrame:
-    df = pd.read_csv("late_risk_scored_orders.csv", parse_dates=["order_date"])
+    df = pd.read_csv(HERE / "late_risk_scored_orders.csv", parse_dates=["order_date"])
     df["year"] = df["order_date"].dt.year
     return df
 
@@ -69,7 +72,7 @@ with tab_calc:
             m1.metric("Predicted late risk", f"{p:.0%}")
             m2.markdown(f"<span style='background:{BAND_COLOURS[bnd]};color:white;padding:4px 12px;border-radius:999px;font-weight:700'>"
                         f"{bnd.upper()} RISK</span><br><br>{action(bnd)}", unsafe_allow_html=True)
-            st.progress(min(max(p, 0.0), 1.0), text="Low < 45% · Medium 45–70% · High ≥ 70%")
+            st.progress(min(max(p, 0.0), 1.0), text="Low < 33% · Medium 33–67% · High ≥ 67%")
 
             g1, g2 = st.columns(2)
             with g1:
@@ -144,7 +147,7 @@ with tab_model:
     st.markdown("""
 - **Model:** Gradient Boosting (100 trees, depth 3), 80/20 stratified split, retrained on `fact_orders`.
 - **Features (known at order time):** shipping mode, order hour, day of week, month, payment type, items, quantity, order value, discount, department.
-- **Bands:** Low < 45% · Medium 45–70% · High ≥ 70%. In out-of-fold scoring, 36% / 65% / 89% of orders in each band were actually late.
+- **Bands (same as the notebook):** Low < 33% · Medium 33–67% · High ≥ 67%. In out-of-fold scoring, 22% / 39% / 86% of orders in each band were actually late.
 - **Biggest driver:** shipping mode; order hour is second, consistent with a dispatch cut-off effect.
 """)
     cm = pd.DataFrame({"Predicted on time": [5263, 3053], "Predicted late": [678, 4157]}, index=["Actually on time", "Actually late"])

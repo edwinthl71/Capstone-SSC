@@ -6,7 +6,7 @@ from pathlib import Path
 MODEL = json.loads((Path(__file__).parent / "model.json").read_text())
 MODES = {"First Class": 1, "Second Class": 2, "Same Day": 0, "Standard Class": 4}
 PROMISE_DAYS = {1: 1, 2: 2, 0: 0, 4: 4}
-BANDS = [(0.70, "High"), (0.45, "Medium"), (0.0, "Low")]
+BANDS = [(2 / 3, "High"), (1 / 3, "Medium"), (0.0, "Low")]  # same cut-offs as the notebook
 BAND_COLOURS = {"High": "#c93f52", "Medium": "#c98a0b", "Low": "#2f8a5f"}
 DEPTS = MODEL["depts"]
 DEFAULTS = MODEL["defaults"]
