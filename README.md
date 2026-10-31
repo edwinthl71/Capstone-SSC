@@ -54,7 +54,7 @@ The `Orders` table includes a `Late_delivery_risk` flag plus scheduled vs. actua
 
 ---
 
-<img width="1846" height="829" alt="image" src="https://github.com/user-attachments/assets/4bfe899c-9111-4840-aa95-91f776546c80" />
+<img width="1398" height="787" alt="image" src="https://github.com/user-attachments/assets/617ad7d8-13d3-4088-87df-2cd7a73bcf71" />
 
 ---
 
