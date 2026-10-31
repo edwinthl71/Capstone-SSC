@@ -60,6 +60,9 @@ The `Orders` table includes a `Late_delivery_risk` flag plus scheduled vs. actua
 
 ## Research Objectives
 
+<img width="1488" height="817" alt="image" src="https://github.com/user-attachments/assets/746479d0-85d3-4c6e-9565-9dc2715f8603" />
+
+
 **1. Shipping Mode Impact Analysis**
 Evaluate how different shipping modes (Standard, Second Class, First Class, Same Day) influence the likelihood of late delivery.
 *Value:* identifies which service levels are most prone to delays and guides logistics optimisation.
