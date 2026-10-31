@@ -223,7 +223,7 @@ The notebook exports a star schema to `powerbi/`:
 
 The app puts the predictive model to work. A user enters an order the way it looks at checkout and gets its late-delivery risk.
 
-<img width="1870" height="808" alt="image" src="https://github.com/user-attachments/assets/207d0789-8d3a-4508-8f0a-4e6f83d51ae1" />
+<img width="904" height="774" alt="image" src="https://github.com/user-attachments/assets/7b716928-d610-4958-9531-70ce451fbfbe" />
 
 **Tabs**
 - **Risk calculator** – choose shipping mode, order hour, day, month, payment type, department, items, quantity, order value and discount, then click **Predict**. The app shows the late-risk percentage, a Low / Medium / High band with the suggested action, and two what-if charts: the same order under each shipping mode, and at every hour of the day.
