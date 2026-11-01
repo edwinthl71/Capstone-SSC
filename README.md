@@ -123,7 +123,7 @@ Step 2 of the notebook is split into labelled blocks (2A to 2E). All cleaning is
 
 | Task | Cleaning operation | Result on this dataset |
 |---|---|---|
-| **2B-1** | Standardise text (trim spaces, collapse repeated spaces) | 6,630 cells fixed, mostly in Geography (5,923) and Customers (695) |
+| **2B-1**  | Standardise text (trim spaces, collapse repeated spaces) | 6,630 cells fixed, mostly in Geography (5,923) and Customers (695) |
 | **2B-2** | Remove personal data (name, email, password, street) | 5 customer columns dropped |
 | **2B-3** | Drop mostly empty or unused columns | `Order Zipcode` (87% missing), `Product Description` (100% missing) and `Customer Zipcode` dropped |
 | **2B-4** | Remove duplicate rows | 0 duplicates found |
